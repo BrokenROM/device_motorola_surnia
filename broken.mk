@@ -21,10 +21,14 @@ TARGET_SCREEN_HEIGHT := 960
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := surnia
-PRODUCT_NAME := lineage_surnia
+PRODUCT_NAME := broken_surnia
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := surnia
+
+# Broken Device Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+	DEVICE_MAINTAINERS="David J. Vandenburgh (Seraph08)"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="Moto E LTE (2nd gen)"
